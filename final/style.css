@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* cursor:url(/assets/images/mc-cursor.png),auto; */
+  }
+  
+  /* common styles start here */
+
+  
+main {
+    /* max-width: 1600px; */
+    margin: 0 auto;
+  }
+  
+p{
+    margin: 5px 0;
+  }
+  
+.padding-all{
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+nav{
+    height: 80px;
+    width:1140;
+    z-index: 100;
+}
+nav img{
+    position: absolute;
+    left: 130px;
+    top: 10px;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 17px;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+nav ul li {
+    float: right;
+  }
+  
+nav li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* ---------------------------------------------------------------------- */
+
+ #home-section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: RGB(255, 188, 13);
+}
+
+#home-section h1{
+    position: relative;
+    left: 150px;
+    font-weight:900;
+    height: 100%;
+    width: 100%;
+    color: #db0008;
+    font-size: 2.7rem;
+    transform: translateY(-50%);
+}
+#home-section h1 span{
+    color:RGB(255, 188, 13);
+    text-shadow:
+   -1px -1px 0 #db0008,  
+    1px -1px 0 #db0008,
+    -1px 1px 0 #db0008,
+     1px 1px 0 #db0008;
+}
+
+
+
+
+.menu-slider{
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 70px;
+}
+.container-flex{
+  display:flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  min-height: 450px;
+}
+.menu-slider h1{
+  padding:10px;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #db0008;
+}
+
+.menu-first{
+  width:38%;
+}
+.menu-first h2{
+	position: relative;
+	display: block;
+	padding: 16px 10px;
+	padding-left: 0;
+  font-weight: bolder;
+  font-size: 2rem;
+	padding-right: 30px;
+	line-height: 110%;
+}
+
+.menu-first h2:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: calc(-7vw - 40px);
+	width: 150%;
+	height: 100%;
+	background: #FFBC0D;
+	border-radius: 0 0 70px 0;
+	z-index: -1;
+}
+
+.menu-first :nth-child(2){
+  color: #B69A81;
+	font-weight: 700;
+  font-size: 17px;
+  margin: 16px 0px;
+}
+
+.menu-first :nth-child(3){
+  font-size: 17px;
+  margin: 5px 0px ;
+}
+.img-cont img{
+  width: 80%;
+  line-height: 150px;
+}
